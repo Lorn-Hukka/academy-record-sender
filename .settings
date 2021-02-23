@@ -1,5 +1,0 @@
-_7ZIP = "D:\\7-Zip\\7z.exe"
-RECORDS_PATH = "H:\\Nagrania"
-EXTENSION = ".mkv"
-WEBHOOK = "INSERT WEBHOOK HERE"
-NAME = "INSERT NAME HERE"

@@ -6,9 +6,10 @@
 3. Open console withnin folder containing script.
 4. Run:
     ```
-    pip install -r requirements
+    pip install -r requirements.txt
     ```
-5. Enter the appropriate data into `.settings`
+5. Copy `.settings.default` to `.settings`.
+6. Enter the appropriate data into `.settings`
    ```
     _7ZIP = "D:\\7-Zip\\7z.exe" <- Path to 7zip exe
     RECORDS_PATH = "H:\\Nagrania" <- Path to your records folder
