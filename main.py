@@ -55,9 +55,9 @@ class App():
 
         with open('passwords', 'w+', encoding="utf-8") as f:
             for line in data:
-                fn = line[0][2::]
-                file_password = line[1][3::]
-                link_password = line[2][3::]
+                fn = line[0][2::].strip(' ')
+                file_password = line[1][3::].strip(' ')
+                link_password = line[2][3::].strip(' ')
                 link = line[3][2::].strip(' ')
 
 
