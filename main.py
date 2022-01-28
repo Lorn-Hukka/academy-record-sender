@@ -1,4 +1,4 @@
-import random, os, string, subprocess, shutil, requests
+import random, os, string, subprocess, shutil
 from discord import Webhook, RequestsWebhookAdapter, Embed
 from dotenv import dotenv_values
 import argparse, colorama
